@@ -14,6 +14,17 @@ html.body {
 ::-webkit-scrollbar {
   width: 0px;
 }
+.mouse{
+  position: absolute;
+  z-index: 9;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  opacity: 0.4;
+  padding: 2rem;
+  filter: blur(30px);
+}
 :root {
   --font-family: sans-serif;
   --primary-color: #07071f;
